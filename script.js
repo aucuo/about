@@ -71,9 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         burgerIcon.style.display = "block";
         headerMenu.style.top = "-100vh";
         document.body.style.overflowY = "auto";
-        setTimeout(function () {
-            headerMenu.style.display = "none";
-        }, 300);
+        headerMenu.style.display = "none";
         checkScroll();
     });
 
