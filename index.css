@@ -16,6 +16,7 @@ header {
   width: 80%;
   padding: 20px 10%;
   position: fixed;
+  transition: 0.3s;
 }
 header nav {
   width: 100%;
@@ -180,6 +181,7 @@ section.projects .cards {
 section.projects .cards .item {
   background: #F3F3F3;
   border-radius: 20px;
+  margin-bottom: 40px;
 }
 section.projects .cards .item img {
   width: 100%;
