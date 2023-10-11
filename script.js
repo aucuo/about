@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
         burgerIconClose.style.display = "block";
         burgerIcon.style.display = "none";
         headerMenu.style.display = "flex";
-        headerMenu.style.top = "0";
         document.body.style.overflowY = "hidden";
         logoIcon.forEach(function (path) {
             path.style.fill = '#292D32';
@@ -69,7 +68,6 @@ document.addEventListener('DOMContentLoaded', function () {
         header.style.background = "none";
         burgerIconClose.style.display = "none";
         burgerIcon.style.display = "block";
-        headerMenu.style.top = "-100vh";
         document.body.style.overflowY = "auto";
         headerMenu.style.display = "none";
         checkScroll();
