@@ -59,7 +59,11 @@ header .header__menu ul li a {
   font-weight: 400;
 }
 
+section {
+  width: 90%;
+}
 section.background {
+  width: 100%;
   margin-bottom: 90px;
 }
 section:not(.background) {
@@ -93,7 +97,7 @@ section:not(.background) .text p {
 }
 
 section.background {
-  background: url("./img/background.png") no-repeat;
+  background: url("./img/background.png") black;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -176,6 +180,9 @@ section.projects .cards {
 section.projects .cards .item {
   background: #F3F3F3;
   border-radius: 20px;
+}
+section.projects .cards .item img {
+  width: 100%;
 }
 section.projects .cards .item .item__text {
   display: flex;

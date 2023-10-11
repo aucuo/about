@@ -14,12 +14,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <nav class="header__nav">
             <a href="" class="header__logo">
                 <svg class="header__logo-icon" xmlns="http://www.w3.org/2000/svg" width="165" height="38"
@@ -184,16 +186,16 @@
             </ul>
         </div>
     </header>
-    <section class="background" id="1">
+    <section class="background" id="1" data-aos="fade-down">
         <!-- добавить анимацию -->
-        <a class="background__button" href="">
+        <a class="background__button" href="#2">
             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
                 <path d="M4.5 0V11M4.5 11L8 6.3871M4.5 11L1 6.3871" stroke="#292D32" />
             </svg>
             Листай вниз
         </a>
     </section>
-    <section class="introduction" id="2">
+    <section class="introduction" id="2" data-aos="fade-up">
         <img src="./img/nastya1.png" alt="Настя Сергеева">
         <div class="introduction__text text">
             <h2>Знакомство</h2>
@@ -219,7 +221,7 @@
             </div>
         </div>
     </section>
-    <section class="occupation" id="3">
+    <section class="occupation" id="3" data-aos="fade-up">
         <img src="./img/occupation1.png" alt="Сыч смотрит на планшет в лабе МС">
         <div class="introduction__text text">
             <h2>Знакомство</h2>
@@ -234,13 +236,13 @@
             </ul>
         </div>
     </section>
-    <section class="projects" id="4">
+    <section class="projects" id="4" data-aos="fade-up">
         <div class="projects__text text">
             <h2>Мои проекты</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue nulla, semper a dapibus et, interdum
                 at nisi.</p>
             <div class="projects__cards cards">
-                <div class="cards__item item">
+                <div class="cards__item item" data-aos="fade-right">
                     <img src="./img/universe.png" alt="Лучшее студенческое приложение Universe">
                     <div class="item__text">
                         <h3>1. Лучшее студенческое приложение Universe</h3>
@@ -251,7 +253,7 @@
                 </div>
             </div>
             <div class="projects__cards cards">
-                <div class="cards__item item">
+                <div class="cards__item item" data-aos="fade-right">
                     <img src="./img/universe.png" alt="Лучшее студенческое приложение Universe">
                     <div class="item__text">
                         <h3>2. Информационная система сети аптек Полоцка и Новополоцка</h3>
@@ -262,7 +264,7 @@
                 </div>
             </div>
             <div class="projects__cards cards">
-                <div class="cards__item item">
+                <div class="cards__item item" data-aos="fade-right">
                     <img src="./img/universe.png" alt="Лучшее студенческое приложение Universe">
                     <div class="item__text">
                         <h3>3. Информационная система базы данных деканата</h3>
@@ -274,7 +276,7 @@
             </div>
         </div>
     </section>
-    <section class="it" id="5">
+    <section class="it" id="5" data-aos="fade-up">
         <img src="./img/it1.png" alt="High Tech Park Belarus">
         <div class="introduction__text text">
             <h2>IT в Беларуси</h2>

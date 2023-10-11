@@ -76,7 +76,9 @@ header {
 }
 
 section {
+    width: 90%;
     &.background {
+        width: 100%;
         margin-bottom: 90px;
     }
     &:not(.background) {
@@ -117,7 +119,7 @@ section {
 }
 
 section.background {
-    background: url("./img/background.png") no-repeat;
+    background: url("./img/background.png") black;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -213,6 +215,10 @@ section.projects {
         .item {
             background: $gray;
             border-radius: 20px;
+
+            img {
+                width: 100%;
+            }
 
             .item__text {
                 display: flex;
