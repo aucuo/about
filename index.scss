@@ -245,3 +245,12 @@ section.projects {
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+    section:not(.background) {
+        padding: 40px 0;
+    }
+}

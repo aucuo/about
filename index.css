@@ -203,3 +203,12 @@ section.projects .cards .item .item__text h3 {
   font-size: 20px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+  section:not(.background) {
+    padding: 40px 0;
+  }
+}
